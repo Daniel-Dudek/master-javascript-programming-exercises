@@ -33,6 +33,7 @@ function getLaceNameDataForShoes(inventory) {
       })
     });
     return result
+    
   }
 
 console.log(getLaceNameDataForShoes(currentInventory));
