@@ -1,6 +1,6 @@
 function fromListToObject(array) {
   // your code here
-  
+  return Object.fromEntries(array)
 }
 
 let output = fromListToObject([['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]])
